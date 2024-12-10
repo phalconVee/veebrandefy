@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--light-gray);
+  }
+
+
+   /* Navbar Styles */
+   .navbar {
+    background-color: #ffa726; /* Primary orange color */
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: #fb8c00; /* Hover color */
+  }
+  
+  .nav-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  
+  
+  .cart-button,
+  .signin-button {
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .cart-button i,
+  .signin-button i {
+    font-size: 24px; /* Size of the icons */
+  }
+
+/* Quiz Form */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Quiz Question Styling */
+  .quiz-question {
+    margin-bottom: 20px;
+  }
+  
+  .quiz-question h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-question label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Submit Button */
+  .submit-button {
+    display: block;
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #444444;
+  }
+  
+  .quiz {
+    display: flex;               
+    flex-direction: column;      
+    align-items: center;         
+    text-align: center;          
+    padding: 20px;               
+  }
+  
+  .quiz h1 {
+    margin-bottom: 10px;        
+    font-size: 2em;             
+  }
+  
+  .quiz-description {
+    font-size: 1em;             
+    margin-bottom: 5px;         
+    max-width: 500px;           
+  }

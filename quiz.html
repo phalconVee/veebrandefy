@@ -1,0 +1,111 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brandefy | Quiz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/quiz.css">
+  </head>
+
+  <body>
+
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about-us">About Us</a></li>
+                <li><a href="shop.html">Products</a></li>
+                <li><a href="quiz.html">Take Quiz</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="cart-button">
+                <i class="fas fa-shopping-cart"></i>
+                </button>
+                <button class="signin-button">
+                <i class="fas fa-user"></i>
+                </button>
+            </div>
+            </div>
+        </nav>
+        </header>
+
+    <div class="quiz">
+        <h1>Take Our Skincare Quiz</h1>
+        <div class="quiz-description">
+            Answer the questions below to find products tailored to your skin needs!
+        </div>
+    </div>
+
+    <main>
+      <form action="#" method="post">
+        <!-- Question 1 -->
+        <div class="quiz-question">
+          <h2>1. What is your primary skin concern?</h2>
+          <label><input type="radio" name="q1" value="acne" /> Acne</label
+          ><br />
+          <label><input type="radio" name="q1" value="dryness" /> Dryness</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="wrinkles" /> Wrinkles</label
+          ><br />
+          <label
+            ><input type="radio" name="q1" value="uneven" /> Uneven skin
+            tone</label
+          >
+        </div>
+
+        <!-- Question 2 -->
+        <div class="quiz-question">
+          <h2>2. How often do you use skincare products?</h2>
+          <label><input type="radio" name="q2" value="daily" /> Daily</label
+          ><br />
+          <label><input type="radio" name="q2" value="weekly" /> Weekly</label
+          ><br />
+          <label><input type="radio" name="q2" value="rarely" /> Rarely</label
+          ><br />
+          <label><input type="radio" name="q2" value="never" /> Never</label>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="quiz-question">
+          <h2>3. What is your skin type?</h2>
+          <label><input type="radio" name="q3" value="oily" /> Oily</label
+          ><br />
+          <label><input type="radio" name="q3" value="dry" /> Dry</label><br />
+          <label
+            ><input type="radio" name="q3" value="combination" />
+            Combination</label
+          ><br />
+          <label
+            ><input type="radio" name="q3" value="sensitive" /> Sensitive</label
+          >
+        </div>
+
+        <!-- Question 4 -->
+        <div class="quiz-question">
+          <h2>4. What is your preferred skincare product type?</h2>
+          <label><input type="radio" name="q4" value="serum" /> Serum</label
+          ><br />
+          <label
+            ><input type="radio" name="q4" value="moisturizer" />
+            Moisturizer</label
+          ><br />
+          <label
+            ><input type="radio" name="q4" value="cleanser" /> Cleanser</label
+          ><br />
+          <label
+            ><input type="radio" name="q4" value="sunscreen" /> Sunscreen</label
+          >
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="submit-button">See My Results</button>
+      </form>
+    </main>
+  </body>
+</html>
